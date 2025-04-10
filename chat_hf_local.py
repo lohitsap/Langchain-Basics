@@ -10,7 +10,7 @@ import os
 # be default , all the files are downloaded in C drive
 # and hence we need to change the path to D drive
 
-os.environ['HF_HOME'] = 'C:/Users/lohit/huggingface_cache'
+    os.environ['HF_HOME'] = 'C:/Users/lohit/huggingface_cache'
 
 llm = HuggingFacePipeline.from_model_id(
     model_id='TinyLlama/TinyLlama-1.1B-Chat-v1.0', # repo id : you can copy paste from huggingface models page
